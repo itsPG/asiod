@@ -1,0 +1,28 @@
+BasedOnStyle : Google
+
+Standard : C++11
+TabWidth : 4
+IndentWidth : 4
+ColumnLimit : 120
+AccessModifierOffset: -4
+
+AllowShortFunctionsOnASingleLine : Inline
+BreakConstructorInitializersBeforeComma : true
+ConstructorInitializerAllOnOneLineOrOnePerLine : false
+DerivePointerAlignment : false
+FixNamespaceComments: true
+
+BreakBeforeBraces : Custom
+BraceWrapping:
+  AfterClass:      false
+  AfterControlStatement: false
+  AfterEnum:       false
+  AfterFunction:   true
+  AfterNamespace:  false
+  AfterObjCDeclaration: false
+  AfterStruct:     false
+  AfterUnion:      false
+  BeforeCatch:     false
+  BeforeElse:      false
+  IndentBraces:    false
+  SplitEmptyFunction: false
