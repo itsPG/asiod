@@ -18,35 +18,35 @@ You'll need boost, cmake, clang-format.
 
 Those dependency can be simply installed by
 
-`
+```
 brew install cmake
 brew install boost
 brew install clang-format
-`
+```
 
 # Build
 
-`
+```
 git clone https://github.com/itsPG/asiod.git
 cd asiod
 ./build.sh
-`
+```
 
 # Run
 
 ### Server
 
-`
+```
 cd build
 ./server
-`
+```
 
 ### Client
 
-`
+```
 cd build
 ./client
-`
+```
 
 # Reference
 
