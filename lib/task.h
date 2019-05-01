@@ -19,7 +19,7 @@ using task_fn_t = std::function<void()>;
 
 struct task {
     int32_t id;
-    int32_t weight;
+    int64_t weight;
     task_fn_t fn;
 };
 

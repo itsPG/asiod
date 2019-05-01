@@ -38,8 +38,11 @@ private:
     asio::io_context::strand& main_strand_;
     asio::io_context& pool_io_;
     int32_t concurrency_;
+    int32_t aging_factor_;
     queue_t queue_;
+
     asio::steady_timer timer_;
+    asio::steady_timer aging_timer_;
     std::atomic<int32_t> current_id_;
     std::atomic<int32_t> running_task_count_;
 };
