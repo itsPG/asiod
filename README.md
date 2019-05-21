@@ -48,6 +48,11 @@ cd build
 ./client
 ```
 
+# TODO & issues
+
+- Due to there's no (suitable) way to stop a thread, we should remove the 30s timeout code, it's useless
+- Refine session, process_command is no needed to be a virtual function (combination is better than inherient)
+
 # Reference
 
 There're some good websites help me write this project.
