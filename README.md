@@ -52,6 +52,8 @@ cd build
 
 - Due to there's no (suitable) way to stop a thread, we should remove the 30s timeout code, it's useless
 - Refine session, process_command is no needed to be a virtual function (combination is better than inherient)
+- No need to add "worker_pool" layer, try to integrate it with task_manager
+- Sesson may need no "enable_share_from_this" (TBD)
 
 # Reference
 
